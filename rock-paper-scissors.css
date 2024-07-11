@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(149, 209, 213);
+    user-select: none;
+}
+h1 {
+    height: 100px;
+    background: rgb(80, 125, 138);
+    color: rgb(228, 235, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.rock, .paper, .scissor {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rockstyle, .paperstyle, .scissorstyle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.paperstyle, .scissorstyle {
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rps {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.reset {
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto; /* Centers the button horizontally */
+}
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+.score {
+    margin-top: 60px;
+}
+.you-move, .computer-move {
+    height: 90px;
+    width: 90px;
+    margin: 0 5px; /* Ensures equal spacing */
+    vertical-align: middle;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.js-moves {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.js-score {
+    margin-top: 50px;
+    text-align: center;
+}
